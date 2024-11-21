@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO DJ</title>
+    <style>
+        body{
+            background-image: url('djhtml.webp');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            flex-direction: column;
+        }
+        h1{
+            color: white;
+        }
+        .song-info {
+            font-size: 0.8em;  /* Tiny text */
+            color: white;
+            margin-top: 10px;
+        }
+
+        /* Player container styling */
+        .player-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;  /* Adds space between the two players */
+            width: 100%;  
+            max-width: 600px;
+            
+        }
+    </style>
+<body>
+    <div class = "player-container">
+    <h1> Chill Piano Electronic Music</h1>
+
+    <audio controls preload="auto">
+
+    <source src="🌬️ Chill Piano Electronic Music (For Videos) - _Home_ by Neutrin05 🇺🇸 [ ezmp3.cc ] (1).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <p class="song-info">Now playing: 🌬️ Chill Piano Electronic Music (For Videos) by Neutrin05 🇺🇸</p>
+    </div>
+
+    <div class = "player-container">\
+    <h1> On & On </h1>
+    
+        <audio controls preload="auto">
+    
+        <source src="Cartoon, Jéja - On & On (feat. Daniel Levi) _ Electronic Pop _ NCS - Copyright Free Music [ ezmp3.cc ].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+    
+        <p class="song-info">Now playing: Now playing: Cartoon, Jéja - On & On (feat. Daniel Levi)</p>
+        </div>
+</body>
+</html>
